@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "name": "Alejandra",
+    "name_highlight": "Vaca",
+    "cv_url": "https://www.consultora-digital.cl/_files/ugd/4eceaf_0552e050ee3f4901962881d7218b668d.pdf"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title_line1": "Digital Marketing",
+    "title_highlight": "Director",
+    "title_line2": "Growth Expert",
+    "tagline": "15+ years turning digital strategy into measurable results for Fortune 500, major Latam & worldwide companies — always data-driven, always enjoying the ride.",
+    "photo_url": "",
+    "whatsapp": "56968999575",
+    "email": "alevacac@gmail.com",
+    "linkedin_url": "https://linkedin.com",
+    "stats": [
+      { "number": "15", "suffix": "+", "label": "Years Experience" },
+      { "number": "50", "suffix": "+", "label": "Global Brands" },
+      { "number": "F",  "suffix": "500", "label": "Fortune 500" }
+    ]
+  },
+  "profile": {
+    "title": "Data-driven marketer with a global track record",
+    "subtitle": "Digital Marketing Manager, Growth Manager & Performance Manager with over 15 years of experience translating complex data into clear, profitable strategies.",
+    "highlights": [
+      {
+        "icon": "📈",
+        "title": "Performance & Growth",
+        "text": "Proven track record improving ROI through integrated strategies in paid media, organic, and social media."
+      },
+      {
+        "icon": "🌎",
+        "title": "Global Scope",
+        "text": "Experience across Fortune 500, major Latam corporations, and worldwide companies in multiple industries."
+      },
+      {
+        "icon": "🎓",
+        "title": "Academic Expertise",
+        "text": "Professor and curriculum designer at top Chilean universities, shaping the next generation of digital marketers."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "15+ Years of Digital Leadership",
+    "subtitle": "From agency roots to independent consultancy — a consistent track of senior digital leadership.",
+    "items": [
+      { "period": "2024 — Now",         "role": "Independent Digital Consultant",  "company": "Consultora Digital" },
+      { "period": "2021 — 2024",         "role": "Digital Performance Manager",     "company": "BNP Paribas Cardif" },
+      { "period": "Previous",            "role": "Digital & Media Director",         "company": "Los Quilros / AFP KB" },
+      { "period": "Agency Experience",   "role": "Digital Marketing Manager",        "company": "Multiple Fortune 500 clients across Latam & global markets" }
+    ]
+  },
+  "skills": [
+    {
+      "icon": "📊",
+      "title": "Analytics & Data",
+      "tags": [
+        { "text": "GA4",                 "highlight": true  },
+        { "text": "GTM",                 "highlight": true  },
+        { "text": "Adobe Analytics",     "highlight": false },
+        { "text": "CM360",               "highlight": false },
+        { "text": "DV360",               "highlight": false },
+        { "text": "Looker Studio",       "highlight": false },
+        { "text": "Tableau",             "highlight": false },
+        { "text": "Attribution Modeling","highlight": false }
+      ]
+    },
+    {
+      "icon": "💰",
+      "title": "Paid Media",
+      "tags": [
+        { "text": "Google Ads",   "highlight": true  },
+        { "text": "Meta Ads",     "highlight": true  },
+        { "text": "TikTok Ads",   "highlight": false },
+        { "text": "LinkedIn Ads", "highlight": false },
+        { "text": "Twitter Ads",  "highlight": false },
+        { "text": "Programmatic", "highlight": false },
+        { "text": "PPC",          "highlight": false }
+      ]
+    },
+    {
+      "icon": "🚀",
+      "title": "Growth Marketing",
+      "tags": [
+        { "text": "Lead Generation",  "highlight": true  },
+        { "text": "CRO",              "highlight": false },
+        { "text": "A/B Testing",      "highlight": false },
+        { "text": "Conversion Funnel","highlight": false },
+        { "text": "Inbound Marketing","highlight": false },
+        { "text": "SEO",              "highlight": false }
+      ]
+    },
+    {
+      "icon": "📱",
+      "title": "Social & Content",
+      "tags": [
+        { "text": "Meta",             "highlight": true  },
+        { "text": "TikTok Shop",      "highlight": false },
+        { "text": "Instagram",        "highlight": false },
+        { "text": "Radian6",          "highlight": false },
+        { "text": "Social Monitoring","highlight": false },
+        { "text": "Content Strategy", "highlight": false }
+      ]
+    },
+    {
+      "icon": "🛒",
+      "title": "E-commerce & Platforms",
+      "tags": [
+        { "text": "Shopify",     "highlight": true  },
+        { "text": "WooCommerce", "highlight": false },
+        { "text": "Magento",     "highlight": false },
+        { "text": "Amazon",      "highlight": false },
+        { "text": "WordPress",   "highlight": false },
+        { "text": "Jumpseller",  "highlight": false }
+      ]
+    },
+    {
+      "icon": "🤖",
+      "title": "AI & Automation",
+      "tags": [
+        { "text": "AI-powered pipelines",   "highlight": true  },
+        { "text": "Automated reporting",     "highlight": false },
+        { "text": "AI content optimization", "highlight": false },
+        { "text": "Process automation",      "highlight": false }
+      ]
+    },
+    {
+      "icon": "⚙️",
+      "title": "Management Tools",
+      "tags": [
+        { "text": "Monday",       "highlight": false },
+        { "text": "Jira",         "highlight": false },
+        { "text": "Asana",        "highlight": false },
+        { "text": "Trello",       "highlight": false },
+        { "text": "Slack",        "highlight": false },
+        { "text": "ClickUp",      "highlight": false },
+        { "text": "Google Suite", "highlight": false }
+      ]
+    },
+    {
+      "icon": "🔗",
+      "title": "CRM & Automation",
+      "tags": [
+        { "text": "Salesforce",   "highlight": true  },
+        { "text": "HubSpot",      "highlight": false },
+        { "text": "Pipedrive",    "highlight": false },
+        { "text": "Go High Level","highlight": false },
+        { "text": "Klaviyo",      "highlight": false },
+        { "text": "Mailchimp",    "highlight": false }
+      ]
+    }
+  ],
+  "brands": {
+    "items": [
+      "🛒 Lider",
+      "✈️ LATAM",
+      "🏦 BBVA",
+      "🍫 Nestlé",
+      "📦 + more",
+      "🌎 Global Clients"
+    ]
+  },
+  "education": {
+    "degrees": [
+      { "title": "Strategic Advertising",                       "institution": "DUOC UC" },
+      { "title": "Advertising & Strategic Communications",      "institution": "Universidad Diego Portales" },
+      { "title": "Music BA — Theory & Composition",             "institution": "Pontificia Universidad Católica de Chile" }
+    ],
+    "teaching": [
+      "Lead Professor — Digital Advertising Strategy Diploma, UPacifico (2010)",
+      "Professor — Communication Strategies Diploma, UChile (2012)",
+      "Curriculum Designer — Advertising Program, INACAP (2013–2019)",
+      "Professor — Digital Marketing, Universidad Central (2018)",
+      "Professor — GA4, Performance & Digital Marketing, Adity Academy",
+      "Professor — GA4, The Valley & IAB Academy",
+      "E-learning Teacher — Paid Media & Digital Strategy, unLearni Platform"
+    ],
+    "certifications": [
+      "Google Ads Certified",
+      "Google Analytics Certified",
+      "Meta Blueprint"
+    ]
+  },
+  "footer": {
+    "tagline": "Open to new projects, consulting engagements, and speaking opportunities.",
+    "email": "hola@consultora-digital.cl",
+    "website_url": "https://www.consultora-digital.cl",
+    "website_label": "consultora-digital.cl",
+    "whatsapp": "56968999575",
+    "copyright": "© 2024 Alejandra Vaca — Consultora Digital"
+  }
+}

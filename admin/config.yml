@@ -1,0 +1,136 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: es
+
+collections:
+  - name: "portafolio"
+    label: "Portafolio"
+    files:
+
+      - name: "contenido"
+        label: "✏️ Editar contenido del sitio"
+        file: "content.json"
+        format: json
+        fields:
+
+          # ─── NAV ───────────────────────────────────────────────────────────
+          - label: "Navegación"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Nombre (parte 1)", name: "name", widget: "string", hint: "Ej: Alejandra" }
+              - { label: "Nombre (parte 2, en rosado)", name: "name_highlight", widget: "string", hint: "Ej: Vaca" }
+              - { label: "URL del CV (botón Download CV)", name: "cv_url", widget: "string" }
+
+          # ─── HERO ──────────────────────────────────────────────────────────
+          - label: "Hero (sección principal)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Badge de disponibilidad", name: "badge", widget: "string", hint: "Ej: Available for new projects" }
+              - { label: "Título línea 1", name: "title_line1", widget: "string", hint: "Ej: Digital Marketing" }
+              - { label: "Título en rosado (resaltado)", name: "title_highlight", widget: "string", hint: "Ej: Director" }
+              - { label: "Título línea 3", name: "title_line2", widget: "string", hint: "Ej: Growth Expert" }
+              - { label: "Tagline (descripción breve)", name: "tagline", widget: "text" }
+              - { label: "Foto de perfil", name: "photo_url", widget: "image", required: false, hint: "Sube tu foto aquí. Recomendado: 640x760 px" }
+              - { label: "WhatsApp (solo números, sin +)", name: "whatsapp", widget: "string", hint: "Ej: 56968999575" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "URL de LinkedIn", name: "linkedin_url", widget: "string" }
+              - label: "Estadísticas"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Número", name: "number", widget: "string" }
+                  - { label: "Sufijo (en rosado)", name: "suffix", widget: "string", hint: "Ej: + o 500" }
+                  - { label: "Etiqueta", name: "label", widget: "string" }
+
+          # ─── PROFILE ───────────────────────────────────────────────────────
+          - label: "Perfil profesional"
+            name: "profile"
+            widget: "object"
+            fields:
+              - { label: "Título de sección", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - label: "Highlights (3 tarjetas)"
+                name: "highlights"
+                widget: "list"
+                fields:
+                  - { label: "Emoji / Ícono", name: "icon", widget: "string", hint: "Ej: 📈" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "text" }
+
+          # ─── TIMELINE ──────────────────────────────────────────────────────
+          - label: "Experiencia (timeline)"
+            name: "timeline"
+            widget: "object"
+            fields:
+              - { label: "Título de sección", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "text" }
+              - label: "Entradas del timeline"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Período", name: "period", widget: "string", hint: "Ej: 2021 — 2024" }
+                  - { label: "Cargo / Rol", name: "role", widget: "string" }
+                  - { label: "Empresa / Organización", name: "company", widget: "string" }
+
+          # ─── SKILLS ────────────────────────────────────────────────────────
+          - label: "Skills (habilidades)"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Emoji / Ícono", name: "icon", widget: "string" }
+              - { label: "Categoría", name: "title", widget: "string" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                fields:
+                  - { label: "Texto del tag", name: "text", widget: "string" }
+                  - { label: "Destacado (rosado)", name: "highlight", widget: "boolean", default: false }
+
+          # ─── BRANDS ────────────────────────────────────────────────────────
+          - label: "Marcas / Clientes"
+            name: "brands"
+            widget: "object"
+            fields:
+              - label: "Lista de marcas"
+                name: "items"
+                widget: "list"
+                field: { label: "Marca", name: "item", widget: "string", hint: "Ej: 🛒 Lider" }
+
+          # ─── EDUCATION ─────────────────────────────────────────────────────
+          - label: "Educación"
+            name: "education"
+            widget: "object"
+            fields:
+              - label: "Títulos académicos"
+                name: "degrees"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Institución", name: "institution", widget: "string" }
+              - label: "Docencia (lista)"
+                name: "teaching"
+                widget: "list"
+                field: { label: "Ítem", name: "item", widget: "string" }
+              - label: "Certificaciones"
+                name: "certifications"
+                widget: "list"
+                field: { label: "Certificación", name: "item", widget: "string" }
+
+          # ─── FOOTER ────────────────────────────────────────────────────────
+          - label: "Footer / Contacto"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Tagline del footer", name: "tagline", widget: "text" }
+              - { label: "Email del footer", name: "email", widget: "string" }
+              - { label: "WhatsApp (solo números)", name: "whatsapp", widget: "string" }
+              - { label: "URL del sitio web", name: "website_url", widget: "string" }
+              - { label: "Texto del link web", name: "website_label", widget: "string" }
+              - { label: "Texto de copyright", name: "copyright", widget: "string" }
