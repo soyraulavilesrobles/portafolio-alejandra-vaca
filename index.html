@@ -253,6 +253,7 @@
   .icon-li  { display: inline-block; }
   .icon-globe { display: inline-block; }
 </style>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
@@ -502,6 +503,16 @@ async function init() {
 }
 
 init();
+
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
 </script>
 </body>
 </html>
